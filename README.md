@@ -1,6 +1,6 @@
 # VinEcommerce API Backend
 
-This repository contains the source code for the backend of VinEcommerce API. VinEcommerce is an e-commerce platform that allows users to browse and purchase a variety of products.
+This repository contains the source code for the backend of VinEcommerce API. VinEcommerce is an e-commerce platform that allows users to browse and purchase a variety of products in the interior of Vinhomes.
 
 ## Getting Started
 
@@ -15,13 +15,14 @@ To get started with the VinEcommerce API Backend, follow these steps:
    
    - for terminal:
    dotnet ef database update update_cloud_5
-   - for package console
+   - for package console:
    update-database update_cloud_5
+   
 
-3. Change the default project to VinEcomAPI.
+3. Change the startup project to VinEcomAPI.
+   
 
-
-4.Start the application using the following command:
+4. Start the application using the following command:
    
    dotnet run
 
