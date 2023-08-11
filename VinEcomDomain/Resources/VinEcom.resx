@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VINECOM_BUILDING_NOT_EXIST" xml:space="preserve">
+    <value>Không có dữ liệu về toà nhà.</value>
+  </data>
+  <data name="VINECOM_ORDER_ADDTOCART_FAILED" xml:space="preserve">
+    <value>Không thể thêm vào giỏ hàng. Vui lòng thử lại.</value>
+  </data>
+  <data name="VINECOM_ORDER_STATUS_CANCEL" xml:space="preserve">
+    <value>Đã huỷ</value>
+  </data>
+  <data name="VINECOM_ORDER_STATUS_DONE" xml:space="preserve">
+    <value>Hoàn thành</value>
+  </data>
+  <data name="VINECOM_ORDER_STATUS_PREPARING" xml:space="preserve">
+    <value>Đang chuẩn bị</value>
+  </data>
+  <data name="VINECOM_ORDER_STATUS_SHIPPING" xml:space="preserve">
+    <value>Đang giao</value>
+  </data>
+  <data name="VINECOM_PRODUCT_CATEGORY_BEVERAGE" xml:space="preserve">
+    <value>Thức uống</value>
+  </data>
+  <data name="VINECOM_PRODUCT_CATEGORY_FOOD" xml:space="preserve">
+    <value>Món ăn</value>
+  </data>
+  <data name="VINECOM_PRODUCT_CATEGORY_NECESSITY" xml:space="preserve">
+    <value>Nhu yếu phẩm</value>
+  </data>
+  <data name="VINECOM_SHIPPER_SIGNUP_PLATE_EMPTY_ERROR" xml:space="preserve">
+    <value>Biển số xe không được để trống.</value>
+  </data>
+  <data name="VINECOM_STORE_CATEGORY_BEVERAGE" xml:space="preserve">
+    <value>Quán cafe</value>
+  </data>
+  <data name="VINECOM_STORE_CATEGORY_FOOD" xml:space="preserve">
+    <value>Quán ăn</value>
+  </data>
+  <data name="VINECOM_STORE_CATEGORY_GROCERY" xml:space="preserve">
+    <value>Tạp hoá</value>
+  </data>
+  <data name="VINECOM_STORE_CATEGORY_NOT_EXIST_ERROR" xml:space="preserve">
+    <value>Phân loại cửa hàng không phù hợp.</value>
+  </data>
+  <data name="VINECOM_STORE_NOT_EXIST" xml:space="preserve">
+    <value>Không có dữ liệu về cửa hàng</value>
+  </data>
+  <data name="VINECOM_STORE_REGISTER_COMMISSION_RANGE_ERROR" xml:space="preserve">
+    <value>Hoa hồng trích xuất từ doanh thu cửa hàng phải nằm trong khoảng từ {0}% đến {1}%.</value>
+  </data>
+  <data name="VINECOM_STORE_REGISTER_NAME_LENGTH_ERROR" xml:space="preserve">
+    <value>Tên cửa hàng phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="VINECOM_STORE_REGISTER_SUCCESS" xml:space="preserve">
+    <value>Đăng ký cửa hàng thành công.</value>
+  </data>
+  <data name="VINECOM_USER_AUTHORIZE_FAILED" xml:space="preserve">
+    <value>Số điện thoại hoặc mật khẩu không chính xác.</value>
+  </data>
+  <data name="VINECOM_SERVER_ERROR" xml:space="preserve">
+    <value>Thao tác thất bại. Lỗi hệ thống</value>
+  </data>
+  <data name="VINECOM_USER_REGISTER_PHONE_DUPLICATED" xml:space="preserve">
+    <value>Số điện thoại này đã được sử dụng.</value>
+  </data>
+  <data name="VINECOM_USER_REGISTER_SUCCESS" xml:space="preserve">
+    <value>Đăng ký thành công.</value>
+  </data>
+  <data name="VINECOM_USER_SIGNUP_NAME_EMPTY_ERROR" xml:space="preserve">
+    <value>Họ và tên không thể để trống.</value>
+  </data>
+  <data name="VINECOM_USER_SIGNUP_NAME_LENGTH_ERROR" xml:space="preserve">
+    <value>Họ và tên phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="VINECOM_USER_SIGNUP_PASSWORD_EMPTY_ERROR" xml:space="preserve">
+    <value>Mật khẩu không thể để trống.</value>
+  </data>
+  <data name="VINECOM_USER_SIGNUP_PASSWORD_LENGTH_ERROR" xml:space="preserve">
+    <value>Mật khẩu phải từ {0} - {1} ký tự. </value>
+  </data>
+  <data name="VINECOM_USER_SIGNUP_PHONE_EMPTY_ERROR" xml:space="preserve">
+    <value>Số điện thoại không thể để trống.</value>
+  </data>
+  <data name="VINECOM_USER_SIGNUP_PHONE_FORMAT_ERROR" xml:space="preserve">
+    <value>Số điện thoại không hợp lệ. Vui lòng kiểm tra lại cú pháp.</value>
+  </data>
+  <data name="VINECOM_VEHICLE_TYPE_MOTORBIKE" xml:space="preserve">
+    <value>Xe máy</value>
+  </data>
+  <data name="VINECOM_VEHICLE_TYPE_NOT_EXIST" xml:space="preserve">
+    <value>Loại phương tiện không phù hợp.</value>
+  </data>
+  <data name="VINECOM_IMAGE_URL_EMPTY_ERROR" xml:space="preserve">
+    <value>Đường dẫn ảnh không được để trống.</value>
+  </data>
+  <data name="VINECOM_IMAGE_URL_FORMAT_ERROR" xml:space="preserve">
+    <value>Định dạng đường dẫn ảnh không phù hợp.</value>
+  </data>
+  <data name="VINECOM_PAGE_INDEX_ERROR" xml:space="preserve">
+    <value>Chỉ mục trang yêu cầu tối thiểu là 0.</value>
+  </data>
+  <data name="VINECOM_PAGE_SIZE_ERROR" xml:space="preserve">
+    <value>Kích thước trang phải lớn hơn 0.</value>
+  </data>
+  <data name="VINECOM_PRODUCT_CATEGORY_ERROR" xml:space="preserve">
+    <value>Phân loại sản phẩm này không tồn tại.</value>
+  </data>
+  <data name="VINECOM_PRODUCT_CREATE_INVALID_ORIGINAL_PRICE_ERROR" xml:space="preserve">
+    <value>Giá tiền sản phẩm không hợp lệ. Chi chấp nhận giá trị là số và số tiền lớn hơn 0.</value>
+  </data>
+  <data name="VINECOM_PRODUCT_CREATE_NAME_EMPTY_ERROR" xml:space="preserve">
+    <value>Tên sản phẩm không được để trống.</value>
+  </data>
+  <data name="VINECOM_PRODUCT_CREATE_NAME_LENGTH_ERROR" xml:space="preserve">
+    <value>Tên sản phẩm phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="VINECOM_STORE_CHANGE_STATUS_ERROR" xml:space="preserve">
+    <value>Cập nhật thất bại. Lỗi hệ thống.</value>
+  </data>
+  <data name="VINECOM_PRODUCT_CREATE_ERROR" xml:space="preserve">
+    <value>Đăng ký sản phẩm không thành công. Lỗi hệ thống.</value>
+  </data>
+  <data name="VINECOM_ORDER_ASSIGN_SHIPPER_FAILED" xml:space="preserve">
+    <value>Nhận đơn thất bại. Vui lòng thử lại.</value>
+  </data>
+  <data name="VINECOM_SHIPPER_FINISH_ORDER_FAILED" xml:space="preserve">
+    <value>Hoàn thành đơn hàng thất bại. Vui lòng thử lại.</value>
+  </data>
+  <data name="VINECOM_CUSTOMER_NOT_FOUND" xml:space="preserve">
+    <value>Người dùng không tồn tại. Vui lòng thử lại.</value>
+  </data>
+  <data name="VINECOM_ORDER_REMOVE_FROM_CART_FAILED" xml:space="preserve">
+    <value>Không thể xóa sản phẩm khỏi giỏ hàng. Vui lòng thử lại.</value>
+  </data>
+  <data name="VINECOM_ORDER_CHECKOUT_FAILED" xml:space="preserve">
+    <value>Thanh toán thất bại. Vui lòng thử lại.</value>
+  </data>
+  <data name="VINECOM_USER_AVATAR_URL_NOT_FOUND" xml:space="preserve">
+    <value>Hình ảnh không tồn tại.</value>
+  </data>
+  <data name="VINECOM_SHIPPER_STATUS_AVAILABLE" xml:space="preserve">
+    <value>Đang hoạt động</value>
+  </data>
+  <data name="VINECOM_SHIPPER_STATUS_ENROUTE" xml:space="preserve">
+    <value>Đang giao hàng</value>
+  </data>
+  <data name="VINECOM_SHIPPER_STATUS_OFFLINE" xml:space="preserve">
+    <value>Không hoạt động</value>
+  </data>
+  <data name="VINECOM_NUM_OF_ORDERS_ERROR" xml:space="preserve">
+    <value>Số lượng đơn hàng phải lớn hơn 0.</value>
+  </data>
+  <data name="VINECOM_CUSTOMER_BLOCK_ERROR" xml:space="preserve">
+    <value>Cập nhật thất bại. Vui lòng thử lại.</value>
+  </data>
+  <data name="VINECOM_EMAIL_INVALID_ERROR" xml:space="preserve">
+    <value>Địa chỉ email không phù hợp.</value>
+  </data>
+  <data name="VINECOM_UPDATE_SUCCESS" xml:space="preserve">
+    <value>Cập nhật thành công.</value>
+  </data>
+  <data name="VINECOM_CURRENT_PASSWORD_INCORRECT" xml:space="preserve">
+    <value>Mật khẩu hiện tại không chính xác.</value>
+  </data>
+  <data name="VINECOM_PRODUCT_NOT_EXIST" xml:space="preserve">
+    <value>Sản phẩm không tồn tại.</value>
+  </data>
+  <data name="VINECOM_UNAUTHORIZED" xml:space="preserve">
+    <value>Không đủ thẩm quyền truy cập.</value>
+  </data>
+  <data name="VINECOM_ORDER_DETAIL_NOT_FOUND" xml:space="preserve">
+    <value>Không có dữ liệu về đơn hàng.</value>
+  </data>
+  <data name="VINECOM_ORDER_NOT_FOUND" xml:space="preserve">
+    <value>Không có dữ liệu về đơn hàng.</value>
+  </data>
+  <data name="VINECOM_ORDER_CANCEL_FAILED" xml:space="preserve">
+    <value>Hủy đơn thất bại. Vui lòng thử lại.</value>
+  </data>
+  <data name="VINECOM_ORDER_ADDTOCART_QUANTITY_ERROR" xml:space="preserve">
+    <value>Không thể thêm vào giỏ hàng. Số lượng tối thiểu là 1.</value>
+  </data>
+  <data name="VINECOM_ORDER_ADDTOCART_PRODUCT_NOT_SAME_STORE" xml:space="preserve">
+    <value>Sản phẩm trong giỏ hàng và sản phẩm được thêm không cùng một cửa hàng.</value>
+  </data>
+  <data name="VINECOM_RATING_VALUE_ERROR" xml:space="preserve">
+    <value>Đánh giá sản phẩm chỉ cho phép giá trị từ {0} - {1}.</value>
+  </data>
+  <data name="VINECOM_RATING_SUCCESS" xml:space="preserve">
+    <value>Đánh giá thành công.</value>
+  </data>
+</root>
